@@ -19,7 +19,6 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.util.Log;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class BatteryStatusActivity extends Activity {
 	
@@ -242,7 +241,6 @@ public class BatteryStatusActivity extends Activity {
 			writer.newLine();
 			writer.flush();
 			writer.close();
-			//Toast.makeText(this, "Saved", Toast.LENGTH_LONG).show();
 		}catch(IOException e){
 			e.printStackTrace();
 		}
