@@ -187,13 +187,7 @@ public class PhoneStatusActivity extends Activity{
 		// creates a logFile in the root directory of the internal storage of the application.
 		// If the file does not exists, then it is created.
 		Log.d("AppendCellStatus", "In the addLog method");
-		//File logFile = new File(((Context)this).getFilesDir(), "logFile.txt");
 		File logFile = new File(getExternalFilesDir(null), "logFile.txt");
-		/*Log.d("FilesDir Path", getFilesDir().getAbsolutePath());
-		Log.d("FilesDir Name", getFilesDir().getName());
-		Log.d("Path on Android", logFile.getPath());
-		Log.d("Absolute Path on Android", logFile.getAbsolutePath());
-		Log.d("Parent", logFile.getParent());*/
 		Log.d("FileExternalPath", getExternalFilesDir(null).getAbsolutePath());
 		if(!logFile.exists()){
 			try{
