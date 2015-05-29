@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
+
 import org.shellzero.smartphonestatus.R;
 
 import android.app.Activity;
@@ -70,6 +72,11 @@ public class BatteryStatusActivity extends Activity {
 				info += ("Temperature: "+ temp + "\n");
 				info += ("Voltage: "+ voltage + "\n");
 				setBatteryLevelText(info);
+				/*try{
+					TimeUnit.MINUTES.sleep(10);
+				}catch(InterruptedException e){
+					e.printStackTrace();
+				}*/
 				addLog(level+"%".toString());
 			} else {
 				setBatteryLevelText("Battery not present!!!");
