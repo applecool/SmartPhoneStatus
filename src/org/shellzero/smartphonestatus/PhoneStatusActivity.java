@@ -1,9 +1,6 @@
 package org.shellzero.smartphonestatus;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+
 import org.shellzero.smartphonestatus.R;
 
 import android.app.Activity;
@@ -179,36 +176,9 @@ public class PhoneStatusActivity extends Activity{
         
         setTextViewText(info_ids[INFO_DEVICE_INFO_INDEX],deviceinfo);
         
-        //addLog(deviceinfo);
         
 	}
-    
-    /*public void addLog(String device_info){
-		// creates a logFile in the root directory of the internal storage of the application.
-		// If the file does not exists, then it is created.
-		Log.d("AppendCellStatus", "In the addLog method");
-		File logFile = new File(getExternalFilesDir(null), "logFile.txt");
-		Log.d("FileExternalPath", getExternalFilesDir(null).getAbsolutePath());
-		if(!logFile.exists()){
-			try{
-				logFile.createNewFile();
-			}catch(IOException io){
-				io.printStackTrace();
-			}
-		}
-		try{
-			BufferedWriter writer = new BufferedWriter(new FileWriter(logFile, true));
-			writer.write("Device Phone status reading");
-			writer.append(device_info);
-			Log.d("Device_info in try", device_info);
-			writer.newLine();
-			writer.close();
-		}catch(IOException e){
-			e.printStackTrace();
-		}
-	}*/
-
-    
+     
     private void setDataDirection(int id, int direction){
         int resid = getDataDirectionRes(direction);
         //((TextView)findViewById(id)).setCompoundDrawables(null, null,getResources().getDrawable(resid), null);
