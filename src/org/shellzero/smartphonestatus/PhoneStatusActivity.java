@@ -179,11 +179,11 @@ public class PhoneStatusActivity extends Activity{
         
         setTextViewText(info_ids[INFO_DEVICE_INFO_INDEX],deviceinfo);
         
-        addLog(deviceinfo);
+        //addLog(deviceinfo);
         
 	}
     
-    public void addLog(String device_info){
+    /*public void addLog(String device_info){
 		// creates a logFile in the root directory of the internal storage of the application.
 		// If the file does not exists, then it is created.
 		Log.d("AppendCellStatus", "In the addLog method");
@@ -206,7 +206,7 @@ public class PhoneStatusActivity extends Activity{
 		}catch(IOException e){
 			e.printStackTrace();
 		}
-	}
+	}*/
 
     
     private void setDataDirection(int id, int direction){
