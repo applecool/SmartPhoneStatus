@@ -236,7 +236,7 @@ public class BatteryStatusActivity extends Activity {
 			Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 			//Long tsLong = System.currentTimeMillis()/1000;
 			Date date = new Date(timestamp.getTime());
-			SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM/dd/yyyy' 'HH:mm:ss:S");
+			SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM/dd/yyyy' 'HH:mm:ss");
 			String date_format = simpleDateFormat.format(timestamp);
 			//String ts = tsLong.toString();
 			//int count =1;
