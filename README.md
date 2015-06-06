@@ -6,6 +6,7 @@ Install the application and when you open it, the app has two tabs. Tap on the B
 Installation Instructions:
 
 Method 1:
+
 1. You need to modify your Android’s settings to allow the installation of applications from other sources. Under “Settings,” select “Application Settings” and then enable “Unknown Sources.” Also under “Settings,” select “SD Card” and “Phone Storage,” and finally enable “Disable Use for USB Storage”.
 2. Copy the .apk file [APK stands for Android Application Package] to your SD card.
 3. Tap on the .apk file to install it on your phone or tablet.
