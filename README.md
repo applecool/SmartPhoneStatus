@@ -11,3 +11,5 @@ Usage:
 4. Now you can minimize the application and let it run in background. Don't close or quit the application. 
 5. You can observe that there is a folder named "PowerStatus" is created in your SD Card[Memory Card/Internal Storage]. Under this folder, you have a file called as "LogFile.txt" created.
 6. The Battery Level keeps on logging to the LogFile.
+
+Note: If you close/ quit the application, the battey level data is not appended to the LogFile. In case you close the application, when you re-open it, make sure you tap on the battery tab and then minimize the application. Unless you tap on the Battery tab, the data is not logged. When the phone is switched off, all the minimized applications are closed. So, when you reboot your device, you have run the application again. [The PowerStatus directory and the LogFile.txt file doesnt get deleted if the application is quit or phone is closed.]
