@@ -11,6 +11,14 @@ Method 1:
 2. Copy the .apk file [APK stands for Android Application Package] to your SD card.
 3. Tap on the .apk file to install it on your phone or tablet.
 
+Method 2:
+
+1. Copy the apk to SD card.
+2. Download an app called "AppInstaller" from Android Market [Google Play].
+3. On opening the app you can see the apk file in the list.
+4. Click on the app, and it gets installed.
+
+
 
 Usage:
 
