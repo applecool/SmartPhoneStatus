@@ -18,6 +18,11 @@ Method 2:
 3. On opening the app you can see the apk file in the list.
 4. Click on the app, and it gets installed.
 
+Method 3: [Most easiest way]
+
+1. Attach the .apk file to your gmail account and send it to yourself.
+2. Open the mail on your mobile and click [tap] on the the .apk file. 
+3. It'll be automatically installed into your android device.
 
 
 Usage:
