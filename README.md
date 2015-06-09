@@ -25,6 +25,9 @@ Method 3: [Most easiest way]
 3. It'll be automatically installed into your android device.
 
 
+Note: For all the three methods, You need to Enable the "Unknown Sources" under your Application Settings as indicated in the step 1 of the Method 1.
+
+
 Usage:
 
 1. After installing the app, open it. You will see two tabs 1. Phone and 2. Battery.
